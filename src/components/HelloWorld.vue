@@ -26,31 +26,31 @@ export default {
   props: { // attribut paseez sur le composant et exploter a l'interieur de se composant
     msg: String  //change le contenue de {msg} en string 
   },
-  data: function(){
-    return {
-      abonnes : 0,
-      textAbonnes : "personnes se sont abonnées 😀",
-      textNonAbonnes : "personnes n'est abonnée pour le moment 😥",
-      textOneAbonnes : "Une personne abonné c'est un bon début félicitation ✔️",
-      comments: [
-        {
-            nom : 'JOnh',
-            commentaire: "c'est de la bomb !",
-            note : 2,
-        },
-        {
-            nom : 'Toto',
-            commentaire: "J'adore se que tu fait continue",
-            note : 5,
-        },
-        {
-            nom : 'Marc',
-            commentaire: "C'est du caca",
-            note : 1,
-        }
-      ]
-    }
-  },
+  // data: function(){
+  //   return {
+  //     abonnes : 0,
+  //     textAbonnes : "personnes se sont abonnées 😀",
+  //     textNonAbonnes : "personnes n'est abonnée pour le moment 😥",
+  //     textOneAbonnes : "Une personne abonné c'est un bon début félicitation ✔️",
+  //     comments: [
+  //       {
+  //           nom : 'JOnh',
+  //           commentaire: "c'est de la bomb !",
+  //           note : 2,
+  //       },
+  //       {
+  //           nom : 'Toto',
+  //           commentaire: "J'adore se que tu fait continue",
+  //           note : 5,
+  //       },
+  //       {
+  //           nom : 'Marc',
+  //           commentaire: "C'est du caca",
+  //           note : 1,
+  //       }
+  //     ]
+  //   }
+  // },
   methods: {
     subscribe: function () {
     this.abonnes++; 

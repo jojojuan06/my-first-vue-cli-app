@@ -1,10 +1,10 @@
 <!-- partie html de vue -->
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Accueil</router-link> |
+    <router-link to="/about">A propos</router-link>
   </nav>
-  <router-view/>
+  <router-view/>  <!-- afficher la route -->
 </template>
 <!--  <script></script> /script logique de vue -->
 
