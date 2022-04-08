@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Product from '../views/Product.vue'
-import Notfound from '../views/Notfound.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
   {
@@ -33,7 +33,7 @@ const routes = [
   {
     name:'Notfound',
     path:"/:pathMatch(.*)",
-    component: Notfound,
+    component: NotFound,
     meta:{
       title: '404 Not found'
     }
