@@ -1,3 +1,4 @@
+<!-- partie html de vue -->
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
@@ -5,7 +6,13 @@
   </nav>
   <router-view/>
 </template>
+<!--  <script></script> /script logique de vue -->
 
+
+
+
+
+<!--style css de vue (du projet) ou scoped juste a cette vue -->
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,6 +20,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#logo {
+  width: 200px;
 }
 
 nav {
